@@ -1,39 +1,83 @@
-# Teo Quimey Waldemar Londero
-**Técnico Superior en Seguridad Informática | Analista GRC & DevSecOps**
+# 🛡️ Teo Quimey Waldemar Londero
 
-📍 Disponibilidad para relocalización inmediata a CABA
+**Técnico Superior en Seguridad Informática | Analista Cybersecurity & RPA**  
+*Argentina — Disponibilidad para relocalización a CABA / Modalidad Remota*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tlondero-sec)
+[![Certifications](https://img.shields.io/badge/EFSET_English-C2_Proficient-brightgreen?style=for-the-badge)](#-certificaciones)
 
 ---
 
-## Acerca de mí
-Analista de Seguridad de la Información especializado en GRC (Gobierno, Riesgo y Cumplimiento) y en la optimización de procesos mediante automatización (RPA). Mi formación combina la precisión técnica de la ciberseguridad con sólidos conocimientos en derecho procesal y preservación rigurosa de la cadena de custodia, permitiéndome abordar los riesgos digitales desde una perspectiva integral de cumplimiento normativo y eficiencia operativa. 
+## 📌 Acerca de mí
 
-Cuento con experiencia demostrable en la gestión técnica de evidencia digital a gran escala y en la ejecución de auditorías internas bajo marcos ISO 27001/2.
+Analista de Seguridad de la Información especializado en **Ciberseguridad Defensiva (SOC/XDR)**, **Gobierno, Riesgo y Cumplimiento (GRC)** y la **automatización de procesos (RPA)**. Mi perfil combina la precisión técnica del análisis de amenazas y desarrollo de scripts con sólidos conocimientos normativos, legaltech y preservación rigurosa de la cadena de custodia.
+
+Cuento con experiencia demostrable en la construcción de entornos de monitoreo defensivo en la nube, procesamiento masivo de evidencia digital en casos forenses (+15,700 activos) y automatización de cargas de datos en sistemas legacy.
 
 ---
 
 ## 🛠️ Stack Tecnológico
-* **Ciberseguridad & GRC:** ISO 27001/2, GDPR, VAPT, Informática Forense, e-Discovery Legal, Hardening de Sistemas.
-* **Desarrollo & Automatización:** Python (RPA, Pandas, Logging), PowerShell, Bash.
-* **Infraestructura & Datos:** Active Directory (Fundamentos), Entra ID, SQL, SQLite, Windows Server, Linux.
-* **IA & Procesamiento:** Faster-Whisper, Modelos Transformer (Inferencia Local), FFmpeg.
+
+* **SOC & Defensiva:** Wazuh SIEM/XDR, Microsoft Sysmon, Log Analysis (EventIDs), FIM (Syscheck), MITRE ATT&CK Mapping.
+* **GRC & Normativas:** ISO/IEC 27001, ISO/IEC 27002, GDPR, PCI-DSS, Análisis de Riesgos, Políticas de Mínimo Privilegio.
+* **Desarrollo & RPA:** Python (Selenium, PyAutoGUI, Pandas, Logging, Retry Logic), PowerShell, Bash, SQL/SQLite.
+* **Digital Forensics & LegalTech:** e-Discovery, Cadena de Custodia (SHA-256), Faster-Whisper (Inferencia Local CLI), FFmpeg.
+* **Infraestructura & Cloud:** Google Cloud Platform (GCP VPC/Compute Engine), Windows Server 2025 Core, OpenSSH, Linux (Ubuntu LTS).
 
 ---
 
-## 📂 Portafolio de Proyectos
+## 🚀 Portafolio de Proyectos Destacados
 
-### 1. LegalTech & e-Discovery
-* [**Sistema Forense de Transcripción e Indexación Masiva**](enlace-a-forense.md)
-  *Desarrollo de un pipeline ETL local para procesar +15,700 activos digitales garantizando cadena de custodia mediante Hashing SHA-256.*
+### 1. 🛡️ Enterprise SOC & Threat Detection Lab (GCP + Windows Server 2025 + Sysmon)
+> **Defensa en Profundidad & Telemetría Avanzada XDR**
+* **Descripción:** Aprovisionamiento e implementación de un SOC/SIEM híbrido conectando un endpoint Windows Server 2025 Core (On-Prem) con un Manager de Wazuh v4.8.2 en GCP.
+* **Hitos:**
+  * Despliegue de telemetría **Sysmon v15** e inyección de canales en `ossec.conf` para captura de líneas de comandos (CLI) e invasiones de subprocesos (`T1059.001`).
+  * Implementación de **File Integrity Monitoring (FIM)** en tiempo real sobre rutas críticas.
+  * Mapeo de reglas de comportamiento nativas a la matriz **MITRE ATT&CK** (T1078, T1543.003, T1562.001).
+* 🔗 **[Ver Repositorio del Proyecto en GitHub](https://github.com/tlondero-sec/SOC-LAB)**
 
-### 2. Gobernanza, Riesgo y Cumplimiento (GRC)
-* [**Auditoría de Seguridad y Cumplimiento (ISO 27001 & GDPR)**](enlace-a-iso.md)
-  *Ejecución de auditoría interna, relevamiento de activos, políticas de mínimo privilegio y planes de contingencia (IRP/BCP).*
+---
 
-### 3. Automatización (RPA)
-* [**Automatización de Carga de Datos en Sistemas Legacy**](enlace-a-rpa.md)
-  *Scripts en Python con Retry Logic y Logging para optimizar tiempos operativos de carga de datos.*
+### 2. ⚖️ LegalTech & e-Discovery: Sistema Forense Masivo
+> **Procesamiento de Evidencia Digital con Cadena de Custodia**
+* **Descripción:** Pipeline ETL local automatizado para el procesamiento, transcripción e indexación de **+15,700 activos digitales** (audios y correos) en un caso pericial forense.
+* **Hitos:**
+  * Inferencia local utilizando **Faster-Whisper** y **FFmpeg** asegurando confidencialidad absoluta de la prueba.
+  * Trazabilidad e integridad garantizada mediante preservación de hashes **SHA-256**.
+* 🔗 **[Ver Detalle del Proyecto](./enlace-a-forense.md)**
 
-### 4. Seguridad Ofensiva / Defensiva (SOC)
-* [**Análisis de Malware y Threat Hunting**](enlace-a-malware.md)
-  *Análisis técnico de amenazas en entornos controlados y generación de Indicadores de Compromiso (IoCs).*
+---
+
+### 3. 🤖 RPA & Automation: Bot Carga de Datos Inmosoft Legacy
+> **Automatización Empresarial y Mitigación de Errores Operativos**
+* **Descripción:** Desarrollo e implementación de un script en Python para la automatización de ingreso de datos en la plataforma inmobiliaria Inmosoft.
+* **Hitos:**
+  * Implementación de arquitectura resiliente con **Retry Logic**, manejo explícito de excepciones y logging de auditoría.
+  * Reducción drástica del margen de error humano y optimización de tiempos operativos repetitivos.
+* 🔗 **[Ver Detalle del Proyecto](./enlace-a-rpa.md)**
+
+---
+
+### 4. 📜 GRC: Auditoría de Seguridad & Cumplimiento Normativo
+> **Marco ISO/IEC 27001/2 & GDPR**
+* **Descripción:** Evaluación interna de postura de seguridad, relevamiento de activos de información y definición de controles de seguridad de la información.
+* **Hitos:**
+  * Diseño de políticas de control de acceso basados en Mínimo Privilegio (RBAC).
+  * Elaboración de matrices de riesgo y planes de respuesta ante incidentes (IRP/BCP).
+* 🔗 **[Ver Detalle del Proyecto](./enlace-a-iso.md)**
+
+---
+
+## 🏆 Certificaciones & Credenciales
+
+* **ISC2:** Certified in Cybersecurity (CC)
+* **Google:** Google Cybersecurity Professional Certificate
+* **U.S. Department of Homeland Security (DHS):** Critical Infrastructure Protection | Cyber Risk Management | Reverse Engineering
+* **LetsDefend (Blue Team Paths):** SOC Fundamentals | Malware & Phishing Analyzer | Malicious Document Analysis | Linux for Blue Team
+* **Cisco Networking Academy:** Network Technician Career Path
+* **EFSET:** English Certificate C2 Advanced (76/100)
+
+
+---
