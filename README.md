@@ -1,7 +1,7 @@
 # Teo Quimey Waldemar Londero
 **Técnico Superior en Seguridad Informática | Analista GRC & DevSecOps**
 
-📍 Disponibilidad para relocalización inmediata a CABA
+📍 Base en Entre Ríos, con disponibilidad para relocalización a CABA.
 
 ---
 
@@ -14,26 +14,26 @@ Cuento con experiencia demostrable en la gestión técnica de evidencia digital 
 
 ## 🛠️ Stack Tecnológico
 * **Ciberseguridad & GRC:** ISO 27001/2, GDPR, VAPT, Informática Forense, e-Discovery Legal, Hardening de Sistemas.
-* **Desarrollo & Automatización:** Python (RPA, Pandas, Logging), PowerShell, Bash.
+* **Desarrollo & Automatización:** Python (RPA, Pandas, Logging, Win32 API), PowerShell, Bash.
 * **Infraestructura & Datos:** Active Directory (Fundamentos), Entra ID, SQL, SQLite, Windows Server, Linux.
-* **IA & Procesamiento:** Faster-Whisper, Modelos Transformer (Inferencia Local), FFmpeg.
+* **IA & Procesamiento:** C++ Nativo (AVX2/NEON), Faster-Whisper, Modelos Transformer (Inferencia Local), FFmpeg.
 
 ---
 
 ## 📂 Portafolio de Proyectos
 
-### 1. LegalTech & e-Discovery
-* [**Sistema Forense de Transcripción e Indexación Masiva**](enlace-a-forense.md)
-  *Desarrollo de un pipeline ETL local para procesar +15,700 activos digitales garantizando cadena de custodia mediante Hashing SHA-256.*
+### 1. LegalTech, DFIR & e-Discovery
+* [**Digital Forensics & eDiscovery Audio Pipeline**](https://github.com/tlondero-sec/ediscovery-forensic-pipeline)
+  *Motor 100% offline y air-gapped para el procesamiento, transcripción e indexación de evidencia digital de audio. Incluye mitigación de vulnerabilidades de ingesta (Zip Slip/Bombs) y preservación de cadena de custodia mediante Hashing SHA-256.*
 
 ### 2. Gobernanza, Riesgo y Cumplimiento (GRC)
-* [**Auditoría de Seguridad y Cumplimiento (ISO 27001 & GDPR)**](enlace-a-iso.md)
-  *Ejecución de auditoría interna, relevamiento de activos, políticas de mínimo privilegio y planes de contingencia (IRP/BCP).*
+* [**Auditoría de Seguridad y Cumplimiento (ISO 27001 & GDPR)**](https://github.com/tlondero-sec/grc-iso27001-audit-framework)
+  *Ejecución de auditoría interna, relevamiento de activos, políticas de mínimo privilegio y desarrollo de planes de contingencia (IRP/BCP).*
 
 ### 3. Automatización (RPA)
-* [**Automatización de Carga de Datos en Sistemas Legacy**](enlace-a-rpa.md)
-  *Scripts en Python con Retry Logic y Logging para optimizar tiempos operativos de carga de datos.*
+* [**Inmosoft RPA — Carga de Liquidaciones y Descarga de Cupones**](https://github.com/tlondero-sec/inmosoft-rpa-automation)
+  *Scripts en Python interactuando con APIs de Windows a bajo nivel para inyección de datos en sistemas legacy, superando limitaciones de UIPI y mitigando desbordamientos de búfer nativos.*
 
 ### 4. Seguridad Ofensiva / Defensiva (SOC)
-* [**Análisis de Malware y Threat Hunting**](enlace-a-malware.md)
+* [**Análisis de Malware y Threat Hunting**](https://github.com/tlondero-sec/SOC-LAB)
   *Análisis técnico de amenazas en entornos controlados y generación de Indicadores de Compromiso (IoCs).*
