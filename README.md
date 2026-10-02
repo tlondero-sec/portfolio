@@ -1,5 +1,6 @@
 
 Teo Quimey Waldemar Londero
+
 Técnico Superior en Seguridad Informática | Analista de Ciberseguridad & GRC
 ​📍 Base en Entre Ríos, con disponibilidad para relocalización a CABA.
 
