@@ -6,6 +6,7 @@ Técnico Superior en Seguridad Informática | Analista de Ciberseguridad & GRC
 ​Acerca de mí
 
 ​Analista de Seguridad de la Información especializado en GRC (Gobierno, Riesgo y Cumplimiento) y en la optimización de procesos mediante automatización (RPA). Mi perfil combina la precisión técnica de la ciberseguridad con mi formación académica en derecho, permitiéndome abordar los riesgos digitales desde una perspectiva integral que prioriza el estricto cumplimiento normativo, la preservación de la evidencia y la eficiencia operativa.
+
 ​Cuento con experiencia demostrable en la gestión técnica de evidencia digital a gran escala, inteligencia corporativa en fuentes abiertas (OSINT) y en la ejecución de auditorías internas bajo marcos internacionales.
 
 ---
