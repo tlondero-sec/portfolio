@@ -35,9 +35,13 @@ Cuento con experiencia demostrable en la gestión técnica de evidencia digital 
 
 ### 2. OSINT & Inteligencia Corporativa
 
-- **[Corporate Link Analysis & Extracción de Datos Gubernamentales](https://github.com/tlondero-sec/osint-corporate-intelligence-/tree/main)**
+- **[Corporate Link Analysis & Investigación Societaria (Maltego)](https://github.com/tlondero-sec/osint-corporate-intelligence-/tree/main)**
 
-*Investigación forense financiera orientada a la desarticulación de estructuras societarias y detección de beneficiarios finales mediante Link Analysis en Maltego. Incluye el desarrollo de un scraper automatizado en Python que explota fallas de diseño en interfaces web gubernamentales para extraer masivamente un archivo histórico oculto de Boletines Oficiales (2015-2026).*
+*Investigación forense financiera orientada a la desarticulación de estructuras societarias y detección de beneficiarios finales mediante Link Analysis y correlación multi-fuente en Maltego.*
+
+- **[Pipeline de Ingesta y Procesamiento de Boletines Oficiales](https://github.com/tlondero-sec/osint-corporate-intelligence-Pipeline-Boletines-oficiales--)**
+
+*Motor modular en Python para la recolección automatizada, sanitización, indexación y consulta local de documentos históricos en portales gubernamentales, estructurado bajo un enfoque de ingeniería de datos y procesamiento local (Air-Gapped).*
 
 ### 3. LegalTech, DFIR & e-Discovery
 
